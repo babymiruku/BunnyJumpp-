@@ -11,7 +11,7 @@ public class TrapLv3 : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             print("die");
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(5);
         }
 
     }

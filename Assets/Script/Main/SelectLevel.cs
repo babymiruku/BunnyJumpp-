@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackHome : MonoBehaviour
+public class SelectLevel : MonoBehaviour
 {
   public void changeScene()
     {
-        Application.LoadLevel("MainScene");
+        Application.LoadLevel("SelectLevel");
     }
 }

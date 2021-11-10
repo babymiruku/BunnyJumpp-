@@ -13,7 +13,7 @@ public class PlayerLv2Healt : MonoBehaviour
         if (gameObject.transform.position.y <= -7)
         {
             Destroy(gameObject);
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(5);
         }
     }
 }

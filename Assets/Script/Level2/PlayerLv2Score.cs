@@ -26,7 +26,7 @@ public class PlayerLv2Score : MonoBehaviour
 
         if (timeLeft < 0.1f)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(5);
         }
     }
     private void OnTriggerEnter2D(Collider2D other)

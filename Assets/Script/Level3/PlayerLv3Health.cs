@@ -13,7 +13,7 @@ public class PlayerLv3Health : MonoBehaviour
         if (gameObject.transform.position.y <= -7)
         {
             Destroy(gameObject);
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(5);
         }
     }
 }

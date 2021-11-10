@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
             Flip();
             if(hit.collider.tag=="Player")
             {
-             SceneManager.LoadScene(1);
+             SceneManager.LoadScene(5);
             }
         }
     }
